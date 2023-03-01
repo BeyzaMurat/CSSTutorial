@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(46, 44, 44);
+    color: white;
+    width: 100%;
+}
+
+li{
+   float: left;
+   border-right: 1px solid #555;
+}
+ul li a{
+    color: white;
+    padding: 16px 16px;
+    display: block;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+ul li a.active{
+    background-color: darkred;
+}
+ul li a:hover:not(.active){
+    background-color: black;
+}
+div{
+    padding: 20px;
+    margin-top: 30px;
+ }
+@media screen and (max-width:600px) {
+    ul li{
+        float:none
+    }
+}

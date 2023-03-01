@@ -1,0 +1,72 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+}
+
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color:greenyellow;
+    position:relative;
+    left: 400px;
+    
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color:blue
+}
+
+.containers{
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+}
+
+
+.box11{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+.box22{
+    width: 100px;
+    height: 100px;
+    background-color:greenyellow;
+    position:absolute;
+    left: 50px;
+    z-index: 1;
+   
+    
+}
+.box33{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    position: relative;
+    z-index: 2;
+}
+.fixed{
+    width: 300px;
+    border: 3px solid green;
+    position:fixed;
+    bottom:0;
+    right: 0;
+    background-color:greenyellow ;
+
+}
+.sticky{
+    background-color: aquamarine;
+    border: 1px solid green;
+    position:sticky;
+    top:0;
+    padding: 5px;
+
+}

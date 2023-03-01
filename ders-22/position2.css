@@ -1,0 +1,14 @@
+.position{
+    position:static;
+    display: block;
+    border: 2px solid red;
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid black;
+    width: 25%;
+    background-color: gray;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.frm-group{
+    background-color: darkolivegreen;
+    padding: 10px;
+    width: 50%;
+    border-radius: 4px;
+}
+label{
+    padding: 3px 3px;
+    color: white;
+    display: block;
+}
+input[type="text"],select{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+button[type="button"]{
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+button[type="button"]:hover{
+background-color: #222;
+}

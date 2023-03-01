@@ -1,0 +1,44 @@
+#first{
+    color: aqua;
+    font-style: italic;
+}
+
+.second{
+    color: blueviolet;
+    font-size: large;
+
+}
+   
+.link a {
+    color: brown;
+    text-decoration: none;
+}
+.link a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.link a:active{
+    color: beige;
+    background-color: yellow;
+    
+}
+.style-table{
+    border: 1px;
+    margin: 10px;
+}
+.style-table td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+.style-table tr{
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.style-table th{
+    background-color: blue;
+    background-color: darkgoldenrod;
+}
+.style-table td{
+    font-style: italic;
+}
